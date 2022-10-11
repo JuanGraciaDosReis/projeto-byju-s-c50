@@ -1,0 +1,37 @@
+h1{
+    color:red;
+    text-transform:capitalize;
+}
+
+
+.header{
+    background-image: url("https://www.google.com/url?sa=i&url=https%3A%2F%2Fedrodrigues.com.br%2Fblog%2Fcomo-enfileirar-condicionalmente-scripts-no-wordpress%2F&psig=AOvVaw0d66-LH4obmbGlPiR4D8mR&ust=1665599196911000&source=images&cd=vfe&ved=0CAwQjRxqFwoTCJDYo9bm2PoCFQAAAAAdAAAAABAN");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-color: cornflowerblue;
+    background-position-y: -100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.jogos{
+    background-image: url("https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.uol.com.br%2Fstart%2Fultimas-noticias%2F2019%2F01%2F10%2Fglossario-gamer---termos-de-jogos-eletronicos.htm&psig=AOvVaw2l3CYILph6TsrSZxz9dZKs&ust=1665598896734000&source=images&cd=vfe&ved=0CAwQjRxqFwoTCMiJ_sbl2PoCFQAAAAAdAAAAABAT");
+    background-color: darkorange;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.footer{
+    background-color: chartreuse;
+    display: flex;
+    justify-content: flex-end;
+    justify-content: space-evenly;
+}
+
+p{
+    text-align: center;
+    border: 1px solid black;
+    outline-style: double;
+    outline-color: rgb(33, 108, 170);
+}
